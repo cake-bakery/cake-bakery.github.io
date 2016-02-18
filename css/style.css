@@ -1,0 +1,352 @@
+/* ==|====================
+   css/style
+
+   -------INDEX--------
+   #Tipography
+   #Globals
+   #Header
+   #Categories
+   #Testimonials
+   #New Products
+   #Contact
+   ======================= */
+
+/* #Tipography
+   ======================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+/* #Globals
+   ======================================================================== */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body,
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 60px;
+	font-size: 6rem;
+	text-align: center;
+}
+
+h3 {
+	color: #E35573;
+	font-family: 'EB Garamond', serif;
+	font-size: 30px;
+	font-size: 3rem;
+}
+
+h4 {
+	color: #E35573;
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+
+p{
+	font-family: 'Arimo', sans-serif;
+}
+
+.btn-pink {
+	background-color: #E35573;
+	color: #fff; 
+}
+
+/* #Header
+   ======================================================================== */
+.container-header {
+	background: url(../img/wallpaper-header.jpg) no-repeat fixed;
+	background-size: 100%;
+	height: 610px;
+}
+
+.content-logo {
+	padding-left:0;
+}
+
+.content-nav {
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 13px;
+	width: 100%;
+	padding: 20px 0;
+	position: fixed;
+	z-index: 1;
+}
+
+.main-nav {
+	margin-top: 10px;
+	text-align: right;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main-nav a {
+	color: #000;
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	margin-right: 20px;
+}
+
+.main-nav a:last-child {
+	margin-right: 0;
+}
+
+.content-text-welcome {
+	text-align: center;
+	padding: 194px 0;
+}
+
+.cursive-text {
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	font-size: 8rem;
+}
+
+.glyphicon-heart,
+.icon-footer {
+	color: #E35573;
+}
+
+.text-welcome {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+/* #Categories
+   ======================================================================== */
+.section-categories {
+	padding: 100px 0;
+}
+
+.container-categories {
+	margin-top: 50px;
+}
+
+.content-category {
+	text-align: center;
+}
+
+/* #Testimonials
+   ======================================================================== */
+.container-testimonials {
+	background-color: #E6ECE8;
+	padding: 110px 0;
+	width: 100%;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+	background-image: none !important;
+}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+	color: #000;
+}
+
+.blockquote-reverse {
+	margin-top: 50px; 
+	margin-bottom: 0;
+}
+
+/* #New Products
+   ======================================================================== */
+.new-products {
+  padding: 100px 0;
+}
+
+.container-products {
+	margin-top: 50px;
+}
+
+.content-product {
+	position: relative;
+	text-align: center; 
+}
+
+.content-product-img img {
+	cursor: pointer;
+	width: 100%;
+}
+
+.content-cost {
+	background-color: #F9C5C9;
+	position: absolute;
+	top: 0;
+	padding: 7px;
+	width: 24%;
+}
+
+.content-cost span {
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.9rem;
+	font-size: 19px;
+	color: #fff;
+}
+
+.content-product-intro {
+	width: 100%;
+}
+
+.product-name {
+	cursor: pointer;
+}
+
+/* #Contact
+   ======================================================================== */
+.container-contact {
+	background: url(../img/background.jpg) no-repeat fixed;
+	background-size: 100%;
+	padding: 60px 0;
+	position: relative;
+}
+
+.container-contact::before {
+	content: "";
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.contact-title {
+	color: #fff;
+	position: relative;
+}
+
+form {
+	margin-top: 50px;
+}
+
+input,
+textarea {
+	background: rgba(255,255,255,0.7)!important;
+}
+
+.contact-info {
+	margin-top: 50px;
+  background: rgba(255,255,255,0.6);
+  padding: 18px 37px;
+}
+
+.contact-info p{
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.rrss {
+	margin-top: 20px;
+}
+
+.rrss a {
+  color:#fff;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  font-size: 20px;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  width: 49px;
+  padding:8px;
+  margin:0 2px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
+}
+
+.facebook {
+	background-color: #3B5998;
+}
+
+.twitter {
+	background-color: #4099ff;
+}
+
+.google {
+	background-color: #db5a3c;
+}
+
+/* pop-up text */
+
+.rrss a span {
+  color:#666;
+  position:absolute;
+  font-family:sans-serif;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  z-index:-1;
+  font-size:14px;
+  border-radius:2px;
+  background:#fff;
+  visibility:hidden;
+  opacity:0;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+.rrss a span:before {
+  content:'';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+.rrss a:hover span {
+  bottom:50px;
+  visibility:visible;
+  opacity:1;
+}
+
+/* font awesome icons */
+
+.rrss a:nth-of-type(1):before {
+content:'\f09a';
+}
+.rrss a:nth-of-type(2):before {
+content:'\f099';
+}
+.rrss a:nth-of-type(3):before {
+content:'\f0d5';
+}
+.rrss a:nth-of-type(4):before {
+content:'\f113';
+}
+.rrss a:nth-of-type(5):before {
+content:'\f17d';
+}
+.rrss a:nth-of-type(6):before {
+content:'\f1cb';
+}
