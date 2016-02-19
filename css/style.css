@@ -71,7 +71,7 @@ p{
    ======================================================================== */
 .container-header {
 	background: url(../img/wallpaper-header.jpg) no-repeat fixed;
-	background-size: 100%;
+	background-size: cover;
 	height: 610px;
 }
 
@@ -114,8 +114,8 @@ p{
 
 .cursive-text {
 	font-family: 'Sacramento', cursive;
-	font-size: 80px;
-	font-size: 8rem;
+	font-size: 53px;
+	font-size: 5.3rem;
 }
 
 .glyphicon-heart,
@@ -126,6 +126,13 @@ p{
 .text-welcome {
 	font-size: 20px;
 	font-size: 2rem;
+}
+
+@media (min-width: @screen-sm-min) { 
+	.cursive-text {
+		font-size: 80px;
+		font-size: 8rem;
+	}
 }
 
 /* #Categories
@@ -206,7 +213,7 @@ p{
    ======================================================================== */
 .container-contact {
 	background: url(../img/background.jpg) no-repeat fixed;
-	background-size: 100%;
+	background-size: cover;
 	padding: 60px 0;
 	position: relative;
 }
