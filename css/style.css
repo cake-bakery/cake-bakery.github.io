@@ -50,7 +50,7 @@ h3 {
 }
 
 h4 {
-	color: #E35573;
+	color: #E6ECE8;
 	font-family: 'EB Garamond', serif;
 	font-size: 25px;
 	font-size: 2.5rem;
@@ -241,13 +241,13 @@ textarea {
 
 .contact-info {
 	margin-top: 50px;
-  background: rgba(255,255,255,0.6);
-  padding: 18px 37px;
+  padding:0 37px 18px 37px;
 }
 
 .contact-info p{
 	font-size: 14px;
 	font-size: 1.4rem;
+	color: #fff;
 }
 
 .rrss {
