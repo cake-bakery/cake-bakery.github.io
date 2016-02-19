@@ -9,6 +9,7 @@
    #Testimonials
    #New Products
    #Contact
+   #Footer
    ======================= */
 
 /* #Tipography
@@ -133,12 +134,9 @@ p{
 	padding: 100px 0;
 }
 
-.container-categories {
-	margin-top: 50px;
-}
-
 .content-category {
 	text-align: center;
+	margin-top: 50px;
 }
 
 /* #Testimonials
@@ -170,13 +168,10 @@ p{
   padding: 100px 0;
 }
 
-.container-products {
-	margin-top: 50px;
-}
-
 .content-product {
 	position: relative;
-	text-align: center; 
+	text-align: center;
+	margin-top: 50px; 
 }
 
 .content-product-img img {
@@ -230,10 +225,6 @@ p{
 	position: relative;
 }
 
-form {
-	margin-top: 50px;
-}
-
 input,
 textarea {
 	background: rgba(255,255,255,0.7)!important;
@@ -250,8 +241,8 @@ textarea {
 	color: #fff;
 }
 
-.rrss {
-	margin-top: 20px;
+.btn-contact {
+	margin-bottom: 20px;
 }
 
 .rrss a {
@@ -349,4 +340,14 @@ content:'\f17d';
 }
 .rrss a:nth-of-type(6):before {
 content:'\f1cb';
+}
+
+/* #Tipography
+   ======================================================================== */
+.container-footer {
+	padding: 10px 0;
+}
+
+.container-footer img {
+	width: 3%;
 }
