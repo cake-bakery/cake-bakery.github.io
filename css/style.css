@@ -127,7 +127,7 @@ p{
 }
 
 .logo{
-	padding: 7px 0;
+	margin-top: 3px;
 }
 
 @media (min-width: 768px) { 
