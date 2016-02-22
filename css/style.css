@@ -116,8 +116,8 @@ p{
 
 .cursive-text {
 	font-family: 'Sacramento', cursive;
-	font-size: 80px;
-	font-size: 8.0rem;
+	font-size: 70px;
+	font-size: 7.0rem;
 }
 
 .glyphicon-heart,
@@ -157,7 +157,6 @@ p{
    ======================================================================== */
 .container-testimonials {
 	background-color: #E6ECE8;
-	padding: 110px 0;
 	width: 100%;
 }
 
@@ -174,6 +173,18 @@ p{
 .blockquote-reverse {
 	margin-top: 50px; 
 	margin-bottom: 0;
+}
+
+.text-testimonials {
+	font-size: 14px;
+	font-size: 1.4rem!important;
+}
+
+@media (min-width: 768px) { 
+	.text-testimonials {
+		font-size: 21px;
+		font-size: 2.1rem!important;
+	}
 }
 
 /* #New Products
