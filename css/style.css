@@ -75,10 +75,6 @@ p{
 	height: 610px;
 }
 
-.content-logo {
-	padding-left:0;
-}
-
 .content-nav {
 	background-color: rgba(255,255,255,0.8);
 	box-shadow: 0 0 13px;
@@ -90,7 +86,6 @@ p{
 
 .navbar-default {
 	background: none!important;
-	padding: 5px 0;
 }
 
 .navbar-default .navbar-toggle,
@@ -129,6 +124,10 @@ p{
 .text-welcome {
 	font-size: 20px;
 	font-size: 2rem;
+}
+
+.logo{
+	padding: 7px 0;
 }
 
 @media (min-width: 768px) { 
