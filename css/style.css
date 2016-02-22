@@ -90,11 +90,12 @@ p{
 
 .navbar-default {
 	background: none!important;
+	padding: 5px 0;
 }
 
 .navbar-default .navbar-toggle,
 .icon-bar {
-	border: 1px solid #4E3B28!important;
+	border: 2px solid #4E3B28!important;
 }
 
 .nav-link a {
