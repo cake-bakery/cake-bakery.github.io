@@ -12,23 +12,30 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<header id="home" class="container-header container-fluid">
-			<div class="row">
-				<div class="content-nav">
-					<div class="container">
-						<div class="content-logo col-md-2">
-							<img class="img-responsive" src="img/logo.png" alt="">
-						</div><!-- content-logo -->
-						<nav class="main-nav col-md-10">
-							<a class="page-scroll" href="#home">Home</a>
-							<a class="page-scroll" href="#category">Categories</a>
-							<a class="page-scroll" href="#testimonials">Testimonials</a>
-							<a class="page-scroll" href="#products">New Products</a>
-							<a class="page-scroll" href="#contact">Contact</a>
-						</nav><!-- main-nav -->
-					</div><!-- container -->
-				</div><!-- content-nav -->
-			</div><!-- row -->
+		<header id="home" class="container-header">
+			<nav class="content-nav">
+      	<div class="container">
+        	<div class="navbar-default">
+          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+            	<span class="sr-only">Toggle navigation</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+          	</button>
+          	<a href="#"><img class="col-md-2" src="img/logo.png"></a>
+        	</div>
+
+        	<div class="main-nav collapse navbar-collapse col-md-10" id="main-nav">
+          	<ul class="nav navbar-nav">
+            	<li class="nav-link active page-scroll"><a href="#home">Home</a></li>
+            	<li class="nav-link"><a class="page-scroll" href="#category">Categories</a></li>
+            	<li class="nav-link"><a class="page-scroll" href="#testimonials">Testimonials</a></li>
+            	<li class="nav-link"><a class="page-scroll" href="#products">New Products</a></li>
+            	<li class="nav-link"><a class="page-scroll" href="#contact">Contact</a></li>
+          	</ul>
+        	</div><!-- /.navbar-collapse -->
+      	</div><!-- container -->
+    	</nav>
 			<div class="content-text-welcome col-xs-12">
 				<p class="cursive-text">- I <span class="glyphicon glyphicon-heart"></span> Cake -</p>
 			</div><!-- content-text-welcome -->

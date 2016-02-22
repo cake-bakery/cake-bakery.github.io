@@ -88,14 +88,16 @@ p{
 	z-index: 1;
 }
 
-.main-nav {
-	margin-top: 10px;
-	text-align: right;
-	padding-right: 0;
-	padding-left: 0;
+.navbar-default {
+	background: none!important;
 }
 
-.main-nav a {
+.navbar-default .navbar-toggle,
+.icon-bar {
+	border: 1px solid #4E3B28!important;
+}
+
+.nav-link a {
 	color: #000;
 	font-family: 'Arimo', sans-serif;
 	font-size: 15px;
@@ -103,7 +105,7 @@ p{
 	margin-right: 20px;
 }
 
-.main-nav a:last-child {
+.nav-link a:last-child {
 	margin-right: 0;
 }
 
@@ -128,10 +130,15 @@ p{
 	font-size: 2rem;
 }
 
-@media (min-width: @screen-sm-min) { 
+@media (min-width: 768px) { 
 	.cursive-text {
 		font-size: 80px;
 		font-size: 8rem;
+	}
+
+	.main-nav {
+		float: right;
+		padding-right: 0!important;
 	}
 }
 
